@@ -1,9 +1,5 @@
 # SIO_QUIZZ
 
-Todo :
+The Back-End for my Quiz project for school.
 
-CSS
-Error handling : Input not number, etc
-Refactor js
-separate css
-separate js
+If you want to deploy it, do not forget to change the APP_SECRET and the Database credentials.
