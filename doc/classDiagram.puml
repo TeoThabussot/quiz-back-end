@@ -1,0 +1,20 @@
+@startuml
+
+class Question {
+    - libelle : string
+
+}
+
+class Reponse {
+    - libelle : string
+    - isCorrect : boolean
+}
+
+class Theme {
+    - libelle : string
+}
+
+Reponse  "  1..*  " --- "1  " Question
+Question "  1..*  " --- "1  " Theme
+
+@enduml
