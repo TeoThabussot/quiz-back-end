@@ -2,6 +2,7 @@
 
 class Question {
     - libelle : string
+    - slug : string
 
 }
 
@@ -12,6 +13,7 @@ class Reponse {
 
 class Theme {
     - libelle : string
+    - slug : theme
 }
 
 Reponse  "  1..*  " --- "1  " Question
